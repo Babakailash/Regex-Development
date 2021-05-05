@@ -13,9 +13,9 @@ public class UserRegistration {
 		Pattern pattern = Pattern.compile(PATTERN);
 		Matcher matcher = pattern.matcher(values);
 		if(matcher.matches()){
-			System.out.println("User Password "+ values +" is valid");
+			System.out.println("User's Password "+ values +" is valid");
 		}else {
-			System.out.println("User Password "+ values +" is invalid");
+			System.out.println("User's Password "+ values +" is invalid");
 		 
 		}
 
