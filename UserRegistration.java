@@ -4,11 +4,11 @@ import java.util.Scanner;
 import java.util.regex.*;
 public class UserRegistration {
 	
-	private static final String PATTERN = "^[A-Z][a-z]{3}$";
+	private static final String PATTERN = "^[A-Z][a-z]{2,}$";
 	public static void main(String args[]){ 
 	    
 		Scanner c = new Scanner(System.in);
-		System.out.println("Eneter the First Name: ");
+		System.out.println("Eneter the Last Name: ");
 		String values = c.next();
  
 		Pattern pattern = Pattern.compile(PATTERN);
